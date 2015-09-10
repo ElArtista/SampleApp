@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SampleApp</string>
+    <string name="home">Home</string>
+    <string name="doodle">Doodle</string>
+    <string name="foodle">Foodle</string>
+    <string name="goodle">Goodle</string>
+    <string name="roodle">Roodle</string>
+    <string name="fooble">Fooble</string>
+    <string name="accessibility_open_drawer">Open Drawer</string>
+    <string name="accessibility_close_drawer">Close Drawer</string>
 </resources>
