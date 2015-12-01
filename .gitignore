@@ -30,3 +30,11 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# Windows thumbnail db
+Thumbs.db
+
+# Android studio
+*.iml
+.idea/
+
