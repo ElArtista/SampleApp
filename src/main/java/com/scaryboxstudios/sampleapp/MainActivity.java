@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         // Begin fragment transaction
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         // Replace the contents of the container with the new fragment
-        ft.replace(R.id.content_frame, new SampleFragment());
+        ft.replace(R.id.content_frame, new TabsFragment());
         // Complete the changes added above
         ft.commit();
     }
