@@ -54,7 +54,7 @@ public class CardListFragment extends Fragment {
         @Override
         public CardListHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             View v = LayoutInflater.from(parent.getContext())
-                                   .inflate(R.layout.card, parent, false);
+                                   .inflate(R.layout.view_card, parent, false);
             CardListHolder clh = new CardListHolder(v);
             return clh;
         }
@@ -80,7 +80,7 @@ public class CardListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.card_list_fragment, container, false);
+        View view = inflater.inflate(R.layout.fragment_card_list, container, false);
 
         // Dummy cards
         List<CardData> cardData = new ArrayList<>();

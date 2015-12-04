@@ -12,7 +12,7 @@ public class SampleFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.sample_fragment, container, false);
+        View view = inflater.inflate(R.layout.fragment_sample, container, false);
 
         // Set the text contents
         Bundle args = getArguments();
