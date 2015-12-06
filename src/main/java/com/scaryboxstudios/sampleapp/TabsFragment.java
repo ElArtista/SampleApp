@@ -51,7 +51,7 @@ public class TabsFragment extends Fragment {
         // ViewPager
         final ViewPager viewPager = (ViewPager) view.findViewById(R.id.pager);
         PagerAdapter pagerAdapter = new PagerAdapter(getChildFragmentManager());
-        pagerAdapter.addFragment(new SampleFragment(), "One");
+        pagerAdapter.addFragment(new FormFragment(), "One");
         pagerAdapter.addFragment(new CardListFragment(), "Two");
         pagerAdapter.addFragment(new SampleFragment(), "Three");
         viewPager.setAdapter(pagerAdapter);
